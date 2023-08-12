@@ -1,0 +1,7 @@
+pyproject.toml
+src/byor.egg-info/PKG-INFO
+src/byor.egg-info/SOURCES.txt
+src/byor.egg-info/dependency_links.txt
+src/byor.egg-info/entry_points.txt
+src/byor.egg-info/requires.txt
+src/byor.egg-info/top_level.txt

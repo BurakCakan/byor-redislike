@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: byor
+Version: 0.0.0
+Summary: Build your own Redis
+Provides-Extra: test

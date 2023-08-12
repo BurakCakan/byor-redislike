@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="byor"
+description = "Build your own Redis"
+dependencies = []
+dynamic = ["version"]
+
+[project.scripts]
+redis_server = "byor.server:main"
+
+[project.optional-dependencies]
+test = ["pytest==7.4.8"]
+
+[options.packages.find]
+where = "src"
+
